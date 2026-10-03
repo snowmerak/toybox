@@ -1,0 +1,485 @@
+goos: windows
+goarch: arm64
+pkg: github.com/snowmerak/toybox/singleflight
+BenchmarkSerial/ShortKey/Sharded255Channel           	 2317888	       154.4 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/ShortKey/Sharded255Channel           	 2462421	       151.7 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/ShortKey/Sharded255Channel           	 2329926	       152.1 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/ShortKey/Sharded255Channel           	 2320350	       141.6 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/ShortKey/Sharded255Channel           	 2571812	       136.3 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/ShortKey/Sharded255Channel-8         	 2497089	       171.5 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/ShortKey/Sharded255Channel-8         	 1684375	       211.2 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/ShortKey/Sharded255Channel-8         	 1774850	       224.6 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/ShortKey/Sharded255Channel-8         	 1869933	       232.6 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/ShortKey/Sharded255Channel-8         	 1801879	       182.4 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/ShortKey/Sharded255WaitGroup         	 2334932	       155.0 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/Sharded255WaitGroup         	 2637634	       199.0 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/Sharded255WaitGroup         	 2251521	       189.4 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/Sharded255WaitGroup         	 2522336	       165.2 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/Sharded255WaitGroup         	 2142352	       158.1 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/Sharded255WaitGroup-8       	 1782328	       214.7 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/Sharded255WaitGroup-8       	 2570920	       184.3 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/Sharded255WaitGroup-8       	 1988571	       151.2 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/Sharded255WaitGroup-8       	 2276359	       143.7 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/Sharded255WaitGroup-8       	 2694622	       126.2 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/Sharded255Cond              	 3495009	       116.6 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/Sharded255Cond              	 3057781	       117.7 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/Sharded255Cond              	 3088142	       111.0 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/Sharded255Cond              	 2778386	       124.1 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/Sharded255Cond              	 3148284	       119.9 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/Sharded255Cond-8            	 3177542	       115.0 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/Sharded255Cond-8            	 3165822	       107.9 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/Sharded255Cond-8            	 3511762	       116.7 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/Sharded255Cond-8            	 3645639	       112.0 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/Sharded255Cond-8            	 3585603	        97.56 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/XSync                       	 3499075	       115.9 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/XSync                       	 2503844	       137.5 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/XSync                       	 2305064	       142.2 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/XSync                       	 2984769	       141.3 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/XSync                       	 2678415	       112.6 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/XSync-8                     	 3549920	       101.0 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/XSync-8                     	 3887788	       100.8 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/XSync-8                     	 3706308	       102.8 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/XSync-8                     	 3554866	        97.29 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/ShortKey/XSync-8                     	 3883678	        94.40 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Channel        	  698364	       617.6 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Channel        	  657018	       609.1 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Channel        	  653784	       569.7 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Channel        	  641721	       568.1 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Channel        	  695275	       560.2 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Channel-8      	  711068	       535.5 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Channel-8      	  658684	       566.4 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Channel-8      	  619448	       531.0 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Channel-8      	  666072	       580.3 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Channel-8      	  597728	       580.0 ns/op	     208 B/op	       2 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255WaitGroup      	  696931	       538.8 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255WaitGroup      	  709960	       520.0 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255WaitGroup      	  666913	       535.0 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255WaitGroup      	  719022	       532.9 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255WaitGroup      	  734888	       567.0 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255WaitGroup-8    	  701602	       530.5 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255WaitGroup-8    	  711349	       523.9 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255WaitGroup-8    	  681327	       518.9 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255WaitGroup-8    	  685252	       550.7 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255WaitGroup-8    	  696096	       536.4 ns/op	      96 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Cond           	  747399	       508.7 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Cond           	  771720	       510.7 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Cond           	  747321	       531.3 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Cond           	  707491	       511.2 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Cond           	  716118	       522.8 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Cond-8         	  740694	       498.1 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Cond-8         	  748393	       506.7 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Cond-8         	  746593	       531.1 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Cond-8         	  753657	       542.7 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/Sharded255Cond-8         	  709387	       530.9 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/XSync                    	 1417396	       236.2 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/XSync                    	 1493142	       239.1 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/XSync                    	 1538870	       235.0 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/XSync                    	 1478930	       248.8 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/XSync                    	 1475072	       243.8 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/XSync-8                  	 1416703	       266.4 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/XSync-8                  	 1372633	       319.7 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/XSync-8                  	 1546532	       244.1 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/XSync-8                  	 1503123	       235.5 ns/op	      80 B/op	       1 allocs/op
+BenchmarkSerial/LongKey4096/XSync-8                  	 1572829	       241.3 ns/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Channel           	 2498349	       150.4 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Channel           	 2465358	       152.5 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Channel           	 2457412	       167.2 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Channel           	 2146450	       151.5 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Channel           	 2508022	       149.4 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Channel-8         	 3017902	       112.0 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Channel-8         	 3106186	       113.0 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Channel-8         	 3378204	       111.5 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Channel-8         	 3183388	       108.6 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Channel-8         	 3028000	       117.1 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255WaitGroup         	 2726060	       143.7 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255WaitGroup         	 2527522	       143.8 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255WaitGroup         	 2214223	       135.5 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255WaitGroup         	 2709387	       137.2 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255WaitGroup         	 2662603	       132.9 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255WaitGroup-8       	 4908570	        69.85 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255WaitGroup-8       	 5556292	        70.63 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255WaitGroup-8       	 5231515	        67.65 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255WaitGroup-8       	 4991001	        70.19 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255WaitGroup-8       	 5245533	        69.84 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Cond              	 3164372	       120.8 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Cond              	 3088082	       112.5 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Cond              	 3219574	       112.2 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Cond              	 3119394	       112.6 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Cond              	 2985500	       115.2 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Cond-8            	 5708622	        56.40 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Cond-8            	 5967842	        58.62 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Cond-8            	 5622697	        56.85 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Cond-8            	 7395811	        51.14 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/Sharded255Cond-8            	 6888870	        47.20 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/XSync                       	 2865832	       117.2 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/XSync                       	 3199038	       113.4 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/XSync                       	 3218604	       112.9 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/XSync                       	 3021081	       113.7 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/XSync                       	 3200113	       115.7 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/XSync-8                     	  753800	       708.4 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/XSync-8                     	  476732	       704.8 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/XSync-8                     	  466870	       721.2 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/XSync-8                     	  519052	       704.2 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/IndependentCheap/XSync-8                     	  483312	       684.1 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Channel            	 2036784	       170.7 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Channel            	 2022922	       176.2 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Channel            	 2035712	       174.5 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Channel            	 1968130	       177.6 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Channel            	 2085700	       174.0 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Channel-8          	 2449440	       130.6 ns/op	         0.9925 backend/op	         0.01391 shared/op	     206 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Channel-8          	 2546613	       149.9 ns/op	         0.9956 backend/op	         0.008114 shared/op	     207 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Channel-8          	 2313234	       140.1 ns/op	         0.9947 backend/op	         0.009873 shared/op	     206 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Channel-8          	 2796050	       129.7 ns/op	         0.9934 backend/op	         0.01229 shared/op	     206 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Channel-8          	 2804091	       133.7 ns/op	         0.9931 backend/op	         0.01280 shared/op	     206 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255WaitGroup          	 2663422	       132.0 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255WaitGroup          	 2715416	       134.7 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255WaitGroup          	 2759817	       134.3 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255WaitGroup          	 2718834	       136.4 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255WaitGroup          	 2733868	       132.2 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255WaitGroup-8        	 3730766	        99.43 ns/op	         0.9919 backend/op	         0.01525 shared/op	      95 B/op	       0 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255WaitGroup-8        	 3246510	       101.3 ns/op	         0.9910 backend/op	         0.01699 shared/op	      95 B/op	       0 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255WaitGroup-8        	 3705632	        97.24 ns/op	         0.9915 backend/op	         0.01599 shared/op	      95 B/op	       0 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255WaitGroup-8        	 3979174	        93.04 ns/op	         0.9921 backend/op	         0.01493 shared/op	      95 B/op	       0 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255WaitGroup-8        	 3764064	        94.95 ns/op	         0.9915 backend/op	         0.01616 shared/op	      95 B/op	       0 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Cond               	 3183499	       115.8 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Cond               	 3149832	       123.0 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Cond               	 3137694	       116.1 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Cond               	 2813000	       116.3 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Cond               	 3156618	       117.2 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Cond-8             	 3947623	        97.04 ns/op	         0.9883 backend/op	         0.02216 shared/op	      79 B/op	       0 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Cond-8             	 4072886	        99.64 ns/op	         0.9875 backend/op	         0.02368 shared/op	      79 B/op	       0 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Cond-8             	 3747099	        97.20 ns/op	         0.9886 backend/op	         0.02163 shared/op	      79 B/op	       0 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Cond-8             	 3609973	       102.3 ns/op	         0.9918 backend/op	         0.01524 shared/op	      79 B/op	       0 allocs/op
+BenchmarkParallel/Uniform256Cheap/Sharded255Cond-8             	 3719607	        98.33 ns/op	         0.9874 backend/op	         0.02384 shared/op	      79 B/op	       0 allocs/op
+BenchmarkParallel/Uniform256Cheap/XSync                        	 3640827	        96.15 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/XSync                        	 3615739	        97.64 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/XSync                        	 3681678	        97.75 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/XSync                        	 3496526	       101.1 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/XSync                        	 3470089	       103.1 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform256Cheap/XSync-8                      	  758006	       743.9 ns/op	         0.9792 backend/op	         0.03932 shared/op	      78 B/op	       0 allocs/op
+BenchmarkParallel/Uniform256Cheap/XSync-8                      	  447421	       767.1 ns/op	         0.9791 backend/op	         0.03968 shared/op	      78 B/op	       0 allocs/op
+BenchmarkParallel/Uniform256Cheap/XSync-8                      	  624650	       542.2 ns/op	         0.9812 backend/op	         0.03397 shared/op	      78 B/op	       0 allocs/op
+BenchmarkParallel/Uniform256Cheap/XSync-8                      	  919563	       604.7 ns/op	         0.9807 backend/op	         0.03503 shared/op	      78 B/op	       0 allocs/op
+BenchmarkParallel/Uniform256Cheap/XSync-8                      	  553879	       567.2 ns/op	         0.9810 backend/op	         0.03453 shared/op	      78 B/op	       0 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Channel                   	 1940323	       184.2 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Channel                   	 1878199	       212.0 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Channel                   	 1999104	       164.3 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Channel                   	 2368987	       147.8 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Channel                   	 2496760	       148.2 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Channel-8                 	  747337	       661.7 ns/op	         0.6432 backend/op	         0.5448 shared/op	     133 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Channel-8                 	  458271	       704.6 ns/op	         0.6164 backend/op	         0.5831 shared/op	     128 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Channel-8                 	  537883	       702.9 ns/op	         0.6242 backend/op	         0.5720 shared/op	     129 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Channel-8                 	  519060	       714.2 ns/op	         0.6136 backend/op	         0.5871 shared/op	     127 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Channel-8                 	  553726	       708.2 ns/op	         0.6300 backend/op	         0.5616 shared/op	     131 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/Sharded255WaitGroup                 	 2905074	       136.1 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/Sharded255WaitGroup                 	 2655932	       132.6 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/Sharded255WaitGroup                 	 2658211	       132.1 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/Sharded255WaitGroup                 	 2815711	       130.2 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/Sharded255WaitGroup                 	 2782002	       132.1 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/Sharded255WaitGroup-8               	  746299	       680.0 ns/op	         0.6346 backend/op	         0.5626 shared/op	      60 B/op	       0 allocs/op
+BenchmarkParallel/HotCheap/Sharded255WaitGroup-8               	  531043	       729.1 ns/op	         0.6238 backend/op	         0.5763 shared/op	      59 B/op	       0 allocs/op
+BenchmarkParallel/HotCheap/Sharded255WaitGroup-8               	  533815	       710.7 ns/op	         0.6237 backend/op	         0.5776 shared/op	      59 B/op	       0 allocs/op
+BenchmarkParallel/HotCheap/Sharded255WaitGroup-8               	  460075	       725.5 ns/op	         0.6354 backend/op	         0.5557 shared/op	      61 B/op	       0 allocs/op
+BenchmarkParallel/HotCheap/Sharded255WaitGroup-8               	  549090	       789.6 ns/op	         0.6551 backend/op	         0.5264 shared/op	      62 B/op	       0 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Cond                      	 3552824	       104.2 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Cond                      	 3006504	       113.4 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Cond                      	 3183696	       111.0 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Cond                      	 3119064	       111.8 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Cond                      	 3334963	       113.0 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Cond-8                    	  920715	       737.2 ns/op	         0.6509 backend/op	         0.4931 shared/op	      61 B/op	       0 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Cond-8                    	  506798	       767.3 ns/op	         0.6435 backend/op	         0.5020 shared/op	      60 B/op	       0 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Cond-8                    	  508143	       755.6 ns/op	         0.6497 backend/op	         0.4932 shared/op	      61 B/op	       0 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Cond-8                    	  453920	       771.9 ns/op	         0.6463 backend/op	         0.4974 shared/op	      60 B/op	       0 allocs/op
+BenchmarkParallel/HotCheap/Sharded255Cond-8                    	  512367	       706.7 ns/op	         0.6721 backend/op	         0.4629 shared/op	      62 B/op	       0 allocs/op
+BenchmarkParallel/HotCheap/XSync                               	 2986776	       117.1 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/XSync                               	 3169306	       115.4 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/XSync                               	 3205761	       118.6 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/XSync                               	 3160356	       113.6 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/XSync                               	 3165789	       126.5 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotCheap/XSync-8                             	  698174	       636.2 ns/op	         0.6839 backend/op	         0.4819 shared/op	      54 B/op	       0 allocs/op
+BenchmarkParallel/HotCheap/XSync-8                             	  489762	       661.1 ns/op	         0.6670 backend/op	         0.5062 shared/op	      53 B/op	       0 allocs/op
+BenchmarkParallel/HotCheap/XSync-8                             	  525094	       669.7 ns/op	         0.6550 backend/op	         0.5237 shared/op	      52 B/op	       0 allocs/op
+BenchmarkParallel/HotCheap/XSync-8                             	  486039	       683.8 ns/op	         0.6486 backend/op	         0.5336 shared/op	      51 B/op	       0 allocs/op
+BenchmarkParallel/HotCheap/XSync-8                             	  504018	       696.0 ns/op	         0.6481 backend/op	         0.5341 shared/op	      51 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/Sharded255Channel                   	 1322851	       296.1 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/HotYield/Sharded255Channel                   	 1000000	       313.2 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/HotYield/Sharded255Channel                   	 1240495	       298.5 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/HotYield/Sharded255Channel                   	 1233464	       282.6 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/HotYield/Sharded255Channel                   	 1259512	       286.8 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/HotYield/Sharded255Channel-8                 	  762194	       673.2 ns/op	         0.2139 backend/op	         0.9861 shared/op	      44 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/Sharded255Channel-8                 	  511573	       663.7 ns/op	         0.2167 backend/op	         0.9867 shared/op	      45 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/Sharded255Channel-8                 	  522913	       709.1 ns/op	         0.2109 backend/op	         0.9885 shared/op	      43 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/Sharded255Channel-8                 	  517285	       666.1 ns/op	         0.2153 backend/op	         0.9872 shared/op	      44 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/Sharded255Channel-8                 	  549248	       678.6 ns/op	         0.2160 backend/op	         0.9876 shared/op	      44 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/Sharded255WaitGroup                 	 1397234	       249.5 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/HotYield/Sharded255WaitGroup                 	 1468214	       246.4 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/HotYield/Sharded255WaitGroup                 	 1464208	       248.1 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/HotYield/Sharded255WaitGroup                 	 1000000	       331.8 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/HotYield/Sharded255WaitGroup                 	 1315441	       265.7 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/HotYield/Sharded255WaitGroup-8               	  638048	       797.6 ns/op	         0.2253 backend/op	         0.9772 shared/op	      21 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/Sharded255WaitGroup-8               	  502455	       809.9 ns/op	         0.2308 backend/op	         0.9814 shared/op	      22 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/Sharded255WaitGroup-8               	  416791	       847.8 ns/op	         0.2317 backend/op	         0.9799 shared/op	      22 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/Sharded255WaitGroup-8               	  482761	       840.6 ns/op	         0.2307 backend/op	         0.9800 shared/op	      22 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/Sharded255WaitGroup-8               	  465994	       796.7 ns/op	         0.2315 backend/op	         0.9816 shared/op	      22 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/Sharded255Cond                      	 1591084	       230.4 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotYield/Sharded255Cond                      	 1519250	       236.9 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotYield/Sharded255Cond                      	 1400254	       249.3 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotYield/Sharded255Cond                      	 1440240	       235.1 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotYield/Sharded255Cond                      	 1556745	       235.6 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotYield/Sharded255Cond-8                    	  547362	       902.6 ns/op	         0.2476 backend/op	         0.9649 shared/op	      33 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/Sharded255Cond-8                    	  393090	       919.4 ns/op	         0.2456 backend/op	         0.9668 shared/op	      33 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/Sharded255Cond-8                    	  569827	       938.2 ns/op	         0.2480 backend/op	         0.9641 shared/op	      33 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/Sharded255Cond-8                    	  359557	       945.5 ns/op	         0.2473 backend/op	         0.9650 shared/op	      33 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/Sharded255Cond-8                    	  406398	       940.0 ns/op	         0.2481 backend/op	         0.9639 shared/op	      33 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/XSync                               	 1471484	       248.2 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotYield/XSync                               	 1458651	       246.9 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotYield/XSync                               	 1329429	       260.8 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotYield/XSync                               	 1373200	       252.5 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotYield/XSync                               	 1479589	       229.7 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/HotYield/XSync-8                             	  592065	       795.7 ns/op	         0.2341 backend/op	         0.9788 shared/op	      18 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/XSync-8                             	  442956	       818.3 ns/op	         0.2371 backend/op	         0.9778 shared/op	      18 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/XSync-8                             	  441187	       814.7 ns/op	         0.2334 backend/op	         0.9804 shared/op	      18 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/XSync-8                             	  441208	       791.7 ns/op	         0.2342 backend/op	         0.9794 shared/op	      18 B/op	       0 allocs/op
+BenchmarkParallel/HotYield/XSync-8                             	  476593	       821.1 ns/op	         0.2338 backend/op	         0.9787 shared/op	      18 B/op	       0 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Channel             	 1237501	       293.7 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Channel             	 1222732	       294.6 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Channel             	 1247515	       284.2 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Channel             	 1225573	       282.0 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Channel             	 1226106	       300.1 ns/op	         1.000 backend/op	         0 shared/op	     208 B/op	       2 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Channel-8           	 1000000	       501.6 ns/op	         0.4946 backend/op	         0.7836 shared/op	     102 B/op	       0 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Channel-8           	  573540	       547.8 ns/op	         0.4962 backend/op	         0.7785 shared/op	     103 B/op	       0 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Channel-8           	  663691	       537.3 ns/op	         0.4975 backend/op	         0.7774 shared/op	     103 B/op	       0 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Channel-8           	  772134	       548.1 ns/op	         0.5007 backend/op	         0.7722 shared/op	     104 B/op	       1 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Channel-8           	  620528	       512.8 ns/op	         0.4989 backend/op	         0.7783 shared/op	     103 B/op	       0 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255WaitGroup           	 1413556	       262.0 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255WaitGroup           	 1471098	       241.9 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255WaitGroup           	 1456174	       249.1 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255WaitGroup           	 1377702	       259.0 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255WaitGroup           	 1382666	       254.0 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255WaitGroup-8         	 1000000	       544.9 ns/op	         0.5294 backend/op	         0.7471 shared/op	      50 B/op	       0 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255WaitGroup-8         	  606744	       566.8 ns/op	         0.5258 backend/op	         0.7505 shared/op	      50 B/op	       0 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255WaitGroup-8         	  647667	       573.8 ns/op	         0.5286 backend/op	         0.7455 shared/op	      50 B/op	       0 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255WaitGroup-8         	  612348	       560.1 ns/op	         0.5277 backend/op	         0.7481 shared/op	      50 B/op	       0 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255WaitGroup-8         	  599649	       567.9 ns/op	         0.5273 backend/op	         0.7472 shared/op	      50 B/op	       0 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Cond                	 1614558	       225.8 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Cond                	 1503296	       268.6 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Cond                	 1148214	       272.3 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Cond                	 1237420	       304.1 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Cond                	 1446358	       269.7 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Cond-8              	  952732	       416.3 ns/op	         0.4574 backend/op	         0.8140 shared/op	      54 B/op	       0 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Cond-8              	 1000000	       452.0 ns/op	         0.4965 backend/op	         0.7765 shared/op	      57 B/op	       0 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Cond-8              	  914865	       488.6 ns/op	         0.5098 backend/op	         0.7643 shared/op	      58 B/op	       0 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Cond-8              	  916800	       487.8 ns/op	         0.5111 backend/op	         0.7623 shared/op	      58 B/op	       0 allocs/op
+BenchmarkParallel/Uniform16Yield/Sharded255Cond-8              	  711223	       498.4 ns/op	         0.5106 backend/op	         0.7633 shared/op	      58 B/op	       0 allocs/op
+BenchmarkParallel/Uniform16Yield/XSync                         	 1340763	       260.6 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform16Yield/XSync                         	 1332120	       250.6 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform16Yield/XSync                         	 1355858	       267.3 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform16Yield/XSync                         	 1528548	       240.5 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform16Yield/XSync                         	 1511634	       240.8 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkParallel/Uniform16Yield/XSync-8                       	  516625	      1012 ns/op	         0.5952 backend/op	         0.6216 shared/op	      47 B/op	       0 allocs/op
+BenchmarkParallel/Uniform16Yield/XSync-8                       	 1000000	      1025 ns/op	         0.6572 backend/op	         0.5610 shared/op	      52 B/op	       0 allocs/op
+BenchmarkParallel/Uniform16Yield/XSync-8                       	  312748	      1059 ns/op	         0.6656 backend/op	         0.5513 shared/op	      53 B/op	       0 allocs/op
+BenchmarkParallel/Uniform16Yield/XSync-8                       	  343786	      1055 ns/op	         0.6635 backend/op	         0.5555 shared/op	      53 B/op	       0 allocs/op
+BenchmarkParallel/Uniform16Yield/XSync-8                       	  335773	      1071 ns/op	         0.6646 backend/op	         0.5527 shared/op	      53 B/op	       0 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Channel             	  255132	      1427 ns/op	         1.000 backend/op	         0 shared/op	     216 B/op	       3 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Channel             	  252530	      1469 ns/op	         1.000 backend/op	         0 shared/op	     216 B/op	       3 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Channel             	  253549	      1443 ns/op	         1.000 backend/op	         0 shared/op	     216 B/op	       3 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Channel             	  260329	      1444 ns/op	         1.000 backend/op	         0 shared/op	     216 B/op	       3 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Channel             	  247191	      1498 ns/op	         1.000 backend/op	         0 shared/op	     216 B/op	       3 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Channel-8           	  820980	       390.8 ns/op	         1.000 backend/op	         0 shared/op	     216 B/op	       3 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Channel-8           	 1000000	       354.5 ns/op	         1.000 backend/op	         0 shared/op	     216 B/op	       3 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Channel-8           	 1000000	       349.8 ns/op	         1.000 backend/op	         0 shared/op	     216 B/op	       3 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Channel-8           	 1000000	       352.5 ns/op	         1.000 backend/op	         0 shared/op	     216 B/op	       3 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Channel-8           	 1000000	       383.9 ns/op	         1.000 backend/op	         0 shared/op	     216 B/op	       3 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255WaitGroup           	  247453	      1424 ns/op	         1.000 backend/op	         0 shared/op	     104 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255WaitGroup           	  255794	      1448 ns/op	         1.000 backend/op	         0 shared/op	     104 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255WaitGroup           	  264364	      1397 ns/op	         1.000 backend/op	         0 shared/op	     104 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255WaitGroup           	  261914	      1444 ns/op	         1.000 backend/op	         0 shared/op	     104 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255WaitGroup           	  256648	      1442 ns/op	         1.000 backend/op	         0 shared/op	     104 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255WaitGroup-8         	 1000000	       306.8 ns/op	         1.000 backend/op	         0 shared/op	     104 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255WaitGroup-8         	 1236334	       271.0 ns/op	         1.000 backend/op	         0 shared/op	     104 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255WaitGroup-8         	 1206586	       297.4 ns/op	         1.000 backend/op	         0 shared/op	     104 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255WaitGroup-8         	 1310083	       285.1 ns/op	         1.000 backend/op	         0 shared/op	     104 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255WaitGroup-8         	 1000000	       321.1 ns/op	         1.000 backend/op	         0 shared/op	     104 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Cond                	  226178	      1405 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Cond                	  266504	      1369 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Cond                	  273057	      1406 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Cond                	  271761	      1400 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Cond                	  261177	      1414 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Cond-8              	 1311456	       263.9 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Cond-8              	 1000000	       302.2 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Cond-8              	 1263894	       280.1 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Cond-8              	 1287164	       280.4 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/Sharded255Cond-8              	 1296687	       283.3 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/XSync                         	  264318	      1425 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/XSync                         	  258297	      1438 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/XSync                         	  267261	      1429 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/XSync                         	  257766	      1394 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/XSync                         	  263764	      1386 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/XSync-8                       	  367470	      1404 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/XSync-8                       	  255134	      1442 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/XSync-8                       	  274712	      1417 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/XSync-8                       	  263548	      1420 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/IndependentCPU/XSync-8                       	  256081	      1381 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Channel                     	  257168	      1481 ns/op	         1.000 backend/op	         0 shared/op	     216 B/op	       3 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Channel                     	  244122	      1502 ns/op	         1.000 backend/op	         0 shared/op	     216 B/op	       3 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Channel                     	  247362	      1501 ns/op	         1.000 backend/op	         0 shared/op	     216 B/op	       3 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Channel                     	  260830	      1462 ns/op	         1.000 backend/op	         0 shared/op	     216 B/op	       3 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Channel                     	  253369	      1473 ns/op	         1.000 backend/op	         0 shared/op	     216 B/op	       3 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Channel-8                   	  377337	       853.6 ns/op	         0.2036 backend/op	         0.9678 shared/op	      43 B/op	       0 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Channel-8                   	  528931	       584.9 ns/op	         0.1716 backend/op	         0.9854 shared/op	      37 B/op	       0 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Channel-8                   	  621004	       558.2 ns/op	         0.1688 backend/op	         0.9864 shared/op	      36 B/op	       0 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Channel-8                   	  766527	       487.5 ns/op	         0.1735 backend/op	         0.9842 shared/op	      37 B/op	       0 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Channel-8                   	  742251	       453.1 ns/op	         0.1765 backend/op	         0.9788 shared/op	      38 B/op	       0 allocs/op
+BenchmarkParallel/HotCPU/Sharded255WaitGroup                   	  249751	      1457 ns/op	         1.000 backend/op	         0 shared/op	     104 B/op	       2 allocs/op
+BenchmarkParallel/HotCPU/Sharded255WaitGroup                   	  266566	      1461 ns/op	         1.000 backend/op	         0 shared/op	     104 B/op	       2 allocs/op
+BenchmarkParallel/HotCPU/Sharded255WaitGroup                   	  248788	      1425 ns/op	         1.000 backend/op	         0 shared/op	     104 B/op	       2 allocs/op
+BenchmarkParallel/HotCPU/Sharded255WaitGroup                   	  269670	      1423 ns/op	         1.000 backend/op	         0 shared/op	     104 B/op	       2 allocs/op
+BenchmarkParallel/HotCPU/Sharded255WaitGroup                   	  260638	      1407 ns/op	         1.000 backend/op	         0 shared/op	     104 B/op	       2 allocs/op
+BenchmarkParallel/HotCPU/Sharded255WaitGroup-8                 	  477966	       844.6 ns/op	         0.1945 backend/op	         0.9769 shared/op	      20 B/op	       0 allocs/op
+BenchmarkParallel/HotCPU/Sharded255WaitGroup-8                 	  368754	       869.4 ns/op	         0.1854 backend/op	         0.9818 shared/op	      19 B/op	       0 allocs/op
+BenchmarkParallel/HotCPU/Sharded255WaitGroup-8                 	  426741	       860.4 ns/op	         0.1866 backend/op	         0.9811 shared/op	      19 B/op	       0 allocs/op
+BenchmarkParallel/HotCPU/Sharded255WaitGroup-8                 	  506378	       882.3 ns/op	         0.1853 backend/op	         0.9820 shared/op	      19 B/op	       0 allocs/op
+BenchmarkParallel/HotCPU/Sharded255WaitGroup-8                 	  449386	       857.8 ns/op	         0.1855 backend/op	         0.9820 shared/op	      19 B/op	       0 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Cond                        	  264559	      1432 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Cond                        	  261302	      1431 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Cond                        	  254287	      1419 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Cond                        	  246630	      1367 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Cond                        	  269440	      1421 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Cond-8                      	  293300	      1173 ns/op	         0.2442 backend/op	         0.9629 shared/op	      34 B/op	       0 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Cond-8                      	  313195	      1127 ns/op	         0.2338 backend/op	         0.9696 shared/op	      33 B/op	       0 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Cond-8                      	  302676	      1142 ns/op	         0.2357 backend/op	         0.9680 shared/op	      33 B/op	       0 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Cond-8                      	  314385	      1129 ns/op	         0.2362 backend/op	         0.9673 shared/op	      33 B/op	       0 allocs/op
+BenchmarkParallel/HotCPU/Sharded255Cond-8                      	  305078	      1101 ns/op	         0.2350 backend/op	         0.9685 shared/op	      33 B/op	       0 allocs/op
+BenchmarkParallel/HotCPU/XSync                                 	  265682	      1378 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/HotCPU/XSync                                 	  242990	      1471 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/HotCPU/XSync                                 	  265562	      1420 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/HotCPU/XSync                                 	  254701	      1394 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/HotCPU/XSync                                 	  261526	      1396 ns/op	         1.000 backend/op	         0 shared/op	      88 B/op	       2 allocs/op
+BenchmarkParallel/HotCPU/XSync-8                               	  475372	       868.5 ns/op	         0.1991 backend/op	         0.9741 shared/op	      17 B/op	       0 allocs/op
+BenchmarkParallel/HotCPU/XSync-8                               	  371677	       861.3 ns/op	         0.1892 backend/op	         0.9796 shared/op	      16 B/op	       0 allocs/op
+BenchmarkParallel/HotCPU/XSync-8                               	  446096	       843.2 ns/op	         0.1871 backend/op	         0.9802 shared/op	      16 B/op	       0 allocs/op
+BenchmarkParallel/HotCPU/XSync-8                               	  389824	       838.9 ns/op	         0.1885 backend/op	         0.9805 shared/op	      16 B/op	       0 allocs/op
+BenchmarkParallel/HotCPU/XSync-8                               	  384327	       886.6 ns/op	         0.2010 backend/op	         0.9723 shared/op	      17 B/op	       0 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Channel             	  362376	      1055 ns/op	         1.000 backend/op	         0 shared/op	     440 B/op	       6 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Channel             	  595306	       803.9 ns/op	         1.000 backend/op	         0 shared/op	     440 B/op	       6 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Channel             	  388856	       850.4 ns/op	         1.000 backend/op	         0 shared/op	     440 B/op	       6 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Channel             	  473690	       788.0 ns/op	         1.000 backend/op	         0 shared/op	     440 B/op	       6 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Channel             	  529239	       988.7 ns/op	         1.000 backend/op	         0 shared/op	     440 B/op	       6 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Channel-8           	  970010	       473.9 ns/op	         1.000 backend/op	         0 shared/op	     440 B/op	       6 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Channel-8           	  865800	      1272 ns/op	         1.000 backend/op	         0 shared/op	     440 B/op	       6 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Channel-8           	 1000000	       342.9 ns/op	         1.000 backend/op	         0 shared/op	     440 B/op	       6 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Channel-8           	 1000000	       446.5 ns/op	         1.000 backend/op	         0 shared/op	     440 B/op	       6 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Channel-8           	  973472	       388.4 ns/op	         1.000 backend/op	         0 shared/op	     440 B/op	       6 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255WaitGroup           	  541947	      1071 ns/op	         1.000 backend/op	         0 shared/op	     328 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255WaitGroup           	  435024	       723.0 ns/op	         1.000 backend/op	         0 shared/op	     328 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255WaitGroup           	  613842	       654.1 ns/op	         1.000 backend/op	         0 shared/op	     328 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255WaitGroup           	  572919	       698.4 ns/op	         1.000 backend/op	         0 shared/op	     328 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255WaitGroup           	  587936	       606.5 ns/op	         1.000 backend/op	         0 shared/op	     328 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255WaitGroup-8         	 1310391	       266.2 ns/op	         1.000 backend/op	         0 shared/op	     328 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255WaitGroup-8         	 1339008	       269.5 ns/op	         1.000 backend/op	         0 shared/op	     328 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255WaitGroup-8         	 1329375	       273.4 ns/op	         1.000 backend/op	         0 shared/op	     328 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255WaitGroup-8         	 1327606	       274.0 ns/op	         1.000 backend/op	         0 shared/op	     328 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255WaitGroup-8         	 1336984	       272.7 ns/op	         1.000 backend/op	         0 shared/op	     328 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Cond                	  687730	       579.8 ns/op	         1.000 backend/op	         0 shared/op	     312 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Cond                	  557085	       566.1 ns/op	         1.000 backend/op	         0 shared/op	     312 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Cond                	  704900	       567.7 ns/op	         1.000 backend/op	         0 shared/op	     312 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Cond                	  675814	       551.9 ns/op	         1.000 backend/op	         0 shared/op	     312 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Cond                	  682942	       541.8 ns/op	         1.000 backend/op	         0 shared/op	     312 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Cond-8              	 1306165	       262.6 ns/op	         1.000 backend/op	         0 shared/op	     312 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Cond-8              	 1383312	       260.0 ns/op	         1.000 backend/op	         0 shared/op	     312 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Cond-8              	 1363468	       259.4 ns/op	         1.000 backend/op	         0 shared/op	     312 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Cond-8              	 1389379	       259.3 ns/op	         1.000 backend/op	         0 shared/op	     312 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/Sharded255Cond-8              	 1369450	       262.1 ns/op	         1.000 backend/op	         0 shared/op	     312 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/XSync                         	  680014	       544.9 ns/op	         1.000 backend/op	         0 shared/op	     296 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/XSync                         	  720388	       538.7 ns/op	         1.000 backend/op	         0 shared/op	     296 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/XSync                         	  700075	       543.3 ns/op	         1.000 backend/op	         0 shared/op	     296 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/XSync                         	  693921	       581.2 ns/op	         1.000 backend/op	         0 shared/op	     296 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/XSync                         	  695665	       623.4 ns/op	         1.000 backend/op	         0 shared/op	     296 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/XSync-8                       	  270482	      1437 ns/op	         1.000 backend/op	         0 shared/op	     296 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/XSync-8                       	  248506	      1495 ns/op	         1.000 backend/op	         0 shared/op	     296 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/XSync-8                       	  239697	      1478 ns/op	         1.000 backend/op	         0 shared/op	     296 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/XSync-8                       	  236144	      1506 ns/op	         1.000 backend/op	         0 shared/op	     296 B/op	       5 allocs/op
+BenchmarkDoChan/IndependentCheap/XSync-8                       	  304555	      1466 ns/op	         1.000 backend/op	         0 shared/op	     296 B/op	       5 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Channel                     	  487039	       759.4 ns/op	         1.000 backend/op	         0 shared/op	     440 B/op	       6 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Channel                     	  487315	       720.1 ns/op	         1.000 backend/op	         0 shared/op	     440 B/op	       6 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Channel                     	  498318	       764.7 ns/op	         1.000 backend/op	         0 shared/op	     440 B/op	       6 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Channel                     	  465916	       813.4 ns/op	         1.000 backend/op	         0 shared/op	     440 B/op	       6 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Channel                     	  435714	       798.9 ns/op	         1.000 backend/op	         0 shared/op	     440 B/op	       6 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Channel-8                   	  439887	       839.2 ns/op	         0.2412 backend/op	         0.9710 shared/op	     242 B/op	       3 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Channel-8                   	  407944	       846.3 ns/op	         0.2386 backend/op	         0.9737 shared/op	     242 B/op	       3 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Channel-8                   	  433102	       854.5 ns/op	         0.2401 backend/op	         0.9729 shared/op	     242 B/op	       3 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Channel-8                   	  451014	       852.1 ns/op	         0.2403 backend/op	         0.9729 shared/op	     242 B/op	       3 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Channel-8                   	  388416	       855.9 ns/op	         0.2393 backend/op	         0.9732 shared/op	     242 B/op	       3 allocs/op
+BenchmarkDoChan/HotYield/Sharded255WaitGroup                   	  521527	       736.9 ns/op	         1.000 backend/op	         0 shared/op	     328 B/op	       5 allocs/op
+BenchmarkDoChan/HotYield/Sharded255WaitGroup                   	  518536	       718.0 ns/op	         1.000 backend/op	         0 shared/op	     328 B/op	       5 allocs/op
+BenchmarkDoChan/HotYield/Sharded255WaitGroup                   	  444378	       728.8 ns/op	         1.000 backend/op	         0 shared/op	     328 B/op	       5 allocs/op
+BenchmarkDoChan/HotYield/Sharded255WaitGroup                   	  487678	       681.4 ns/op	         1.000 backend/op	         0 shared/op	     328 B/op	       5 allocs/op
+BenchmarkDoChan/HotYield/Sharded255WaitGroup                   	  496448	       736.7 ns/op	         1.000 backend/op	         0 shared/op	     328 B/op	       5 allocs/op
+BenchmarkDoChan/HotYield/Sharded255WaitGroup-8                 	  471753	       821.4 ns/op	         0.2436 backend/op	         0.9697 shared/op	     216 B/op	       3 allocs/op
+BenchmarkDoChan/HotYield/Sharded255WaitGroup-8                 	  412815	       841.6 ns/op	         0.2446 backend/op	         0.9689 shared/op	     216 B/op	       3 allocs/op
+BenchmarkDoChan/HotYield/Sharded255WaitGroup-8                 	  503073	       850.2 ns/op	         0.2434 backend/op	         0.9709 shared/op	     216 B/op	       3 allocs/op
+BenchmarkDoChan/HotYield/Sharded255WaitGroup-8                 	  429066	       817.9 ns/op	         0.2429 backend/op	         0.9705 shared/op	     215 B/op	       3 allocs/op
+BenchmarkDoChan/HotYield/Sharded255WaitGroup-8                 	  445610	       834.8 ns/op	         0.2434 backend/op	         0.9707 shared/op	     216 B/op	       3 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Cond                        	  556972	       649.8 ns/op	         1.000 backend/op	         0 shared/op	     312 B/op	       5 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Cond                        	  558459	       644.4 ns/op	         1.000 backend/op	         0 shared/op	     312 B/op	       5 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Cond                        	  585822	       667.8 ns/op	         1.000 backend/op	         0 shared/op	     312 B/op	       5 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Cond                        	  539341	       653.0 ns/op	         1.000 backend/op	         0 shared/op	     312 B/op	       5 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Cond                        	  538124	       682.0 ns/op	         1.000 backend/op	         0 shared/op	     312 B/op	       5 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Cond-8                      	  508158	       759.7 ns/op	         0.2458 backend/op	         0.9683 shared/op	     212 B/op	       3 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Cond-8                      	  497704	       786.7 ns/op	         0.2457 backend/op	         0.9700 shared/op	     212 B/op	       3 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Cond-8                      	  460528	       811.7 ns/op	         0.2445 backend/op	         0.9707 shared/op	     212 B/op	       3 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Cond-8                      	  474727	       786.0 ns/op	         0.2446 backend/op	         0.9704 shared/op	     212 B/op	       3 allocs/op
+BenchmarkDoChan/HotYield/Sharded255Cond-8                      	  486427	       785.2 ns/op	         0.2446 backend/op	         0.9703 shared/op	     212 B/op	       3 allocs/op
+BenchmarkDoChan/HotYield/XSync                                 	  560644	       687.0 ns/op	         1.000 backend/op	         0 shared/op	     296 B/op	       5 allocs/op
+BenchmarkDoChan/HotYield/XSync                                 	  539524	       646.3 ns/op	         1.000 backend/op	         0 shared/op	     296 B/op	       5 allocs/op
+BenchmarkDoChan/HotYield/XSync                                 	  601694	       734.9 ns/op	         1.000 backend/op	         0 shared/op	     296 B/op	       5 allocs/op
+BenchmarkDoChan/HotYield/XSync                                 	  574602	       658.0 ns/op	         1.000 backend/op	         0 shared/op	     296 B/op	       5 allocs/op
+BenchmarkDoChan/HotYield/XSync                                 	  457044	       704.3 ns/op	         1.000 backend/op	         0 shared/op	     296 B/op	       5 allocs/op
+BenchmarkDoChan/HotYield/XSync-8                               	  438280	       938.9 ns/op	         0.2147 backend/op	         0.9925 shared/op	     204 B/op	       3 allocs/op
+BenchmarkDoChan/HotYield/XSync-8                               	  348637	       951.3 ns/op	         0.2157 backend/op	         0.9926 shared/op	     205 B/op	       3 allocs/op
+BenchmarkDoChan/HotYield/XSync-8                               	  398277	       927.2 ns/op	         0.2160 backend/op	         0.9927 shared/op	     205 B/op	       3 allocs/op
+BenchmarkDoChan/HotYield/XSync-8                               	  415497	       968.3 ns/op	         0.2162 backend/op	         0.9920 shared/op	     205 B/op	       3 allocs/op
+BenchmarkDoChan/HotYield/XSync-8                               	  362329	       945.6 ns/op	         0.2158 backend/op	         0.9925 shared/op	     205 B/op	       3 allocs/op
+BenchmarkColdGroup/Sharded255Channel                           	   61402	      6048 ns/op	   16816 B/op	     260 allocs/op
+BenchmarkColdGroup/Sharded255Channel                           	   60176	      6024 ns/op	   16816 B/op	     260 allocs/op
+BenchmarkColdGroup/Sharded255Channel                           	   58746	      5890 ns/op	   16816 B/op	     260 allocs/op
+BenchmarkColdGroup/Sharded255Channel                           	   58476	      6015 ns/op	   16816 B/op	     260 allocs/op
+BenchmarkColdGroup/Sharded255Channel                           	   54730	      6345 ns/op	   16816 B/op	     260 allocs/op
+BenchmarkColdGroup/Sharded255Channel-8                         	   41570	      8207 ns/op	   16816 B/op	     260 allocs/op
+BenchmarkColdGroup/Sharded255Channel-8                         	   37314	     11104 ns/op	   16816 B/op	     260 allocs/op
+BenchmarkColdGroup/Sharded255Channel-8                         	   46808	      7338 ns/op	   16816 B/op	     260 allocs/op
+BenchmarkColdGroup/Sharded255Channel-8                         	   38932	     11543 ns/op	   16816 B/op	     260 allocs/op
+BenchmarkColdGroup/Sharded255Channel-8                         	   41703	      8781 ns/op	   16816 B/op	     260 allocs/op
+BenchmarkColdGroup/Sharded255WaitGroup                         	   62150	      5899 ns/op	   16704 B/op	     259 allocs/op
+BenchmarkColdGroup/Sharded255WaitGroup                         	   59065	      5748 ns/op	   16704 B/op	     259 allocs/op
+BenchmarkColdGroup/Sharded255WaitGroup                         	   58867	      5844 ns/op	   16704 B/op	     259 allocs/op
+BenchmarkColdGroup/Sharded255WaitGroup                         	   56222	      6223 ns/op	   16704 B/op	     259 allocs/op
+BenchmarkColdGroup/Sharded255WaitGroup                         	   58390	      6222 ns/op	   16704 B/op	     259 allocs/op
+BenchmarkColdGroup/Sharded255WaitGroup-8                       	   58960	      8679 ns/op	   16704 B/op	     259 allocs/op
+BenchmarkColdGroup/Sharded255WaitGroup-8                       	   33853	      9110 ns/op	   16704 B/op	     259 allocs/op
+BenchmarkColdGroup/Sharded255WaitGroup-8                       	   26786	     13446 ns/op	   16704 B/op	     259 allocs/op
+BenchmarkColdGroup/Sharded255WaitGroup-8                       	   24117	     12600 ns/op	   16704 B/op	     259 allocs/op
+BenchmarkColdGroup/Sharded255WaitGroup-8                       	   28914	     12392 ns/op	   16704 B/op	     259 allocs/op
+BenchmarkColdGroup/Sharded255Cond                              	   36621	      9915 ns/op	   16672 B/op	     259 allocs/op
+BenchmarkColdGroup/Sharded255Cond                              	   33384	     12086 ns/op	   16672 B/op	     259 allocs/op
+BenchmarkColdGroup/Sharded255Cond                              	   29193	     16258 ns/op	   16672 B/op	     259 allocs/op
+BenchmarkColdGroup/Sharded255Cond                              	   23730	     13715 ns/op	   16672 B/op	     259 allocs/op
+BenchmarkColdGroup/Sharded255Cond                              	   37201	     10964 ns/op	   16672 B/op	     259 allocs/op
+BenchmarkColdGroup/Sharded255Cond-8                            	   23464	     16306 ns/op	   16672 B/op	     259 allocs/op
+BenchmarkColdGroup/Sharded255Cond-8                            	   21434	     16198 ns/op	   16672 B/op	     259 allocs/op
+BenchmarkColdGroup/Sharded255Cond-8                            	   39248	     11272 ns/op	   16672 B/op	     259 allocs/op
+BenchmarkColdGroup/Sharded255Cond-8                            	   25137	     12557 ns/op	   16672 B/op	     259 allocs/op
+BenchmarkColdGroup/Sharded255Cond-8                            	   26107	     13871 ns/op	   16672 B/op	     259 allocs/op
+BenchmarkColdGroup/XSync                                       	 1305709	       246.3 ns/op	     352 B/op	       4 allocs/op
+BenchmarkColdGroup/XSync                                       	 1641046	       212.3 ns/op	     352 B/op	       4 allocs/op
+BenchmarkColdGroup/XSync                                       	 1730338	       181.9 ns/op	     352 B/op	       4 allocs/op
+BenchmarkColdGroup/XSync                                       	 1648057	       233.1 ns/op	     352 B/op	       4 allocs/op
+BenchmarkColdGroup/XSync                                       	 1748499	       191.3 ns/op	     352 B/op	       4 allocs/op
+BenchmarkColdGroup/XSync-8                                     	 1523761	       253.5 ns/op	     352 B/op	       4 allocs/op
+BenchmarkColdGroup/XSync-8                                     	 1363860	       250.9 ns/op	     352 B/op	       4 allocs/op
+BenchmarkColdGroup/XSync-8                                     	 1415589	       225.1 ns/op	     352 B/op	       4 allocs/op
+BenchmarkColdGroup/XSync-8                                     	 1576159	       224.5 ns/op	     352 B/op	       4 allocs/op
+BenchmarkColdGroup/XSync-8                                     	 1648654	       237.4 ns/op	     352 B/op	       4 allocs/op
+PASS
+ok  	github.com/snowmerak/toybox/singleflight	226.574s

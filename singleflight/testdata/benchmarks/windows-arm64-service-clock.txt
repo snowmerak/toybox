@@ -1,0 +1,17 @@
+=== RUN   TestServiceTrace
+=== RUN   TestServiceTrace/Uniform4096New50
+=== RUN   TestServiceTrace/Zipf4096New10
+=== RUN   TestServiceTrace/Hot32New20
+--- PASS: TestServiceTrace (0.00s)
+    --- PASS: TestServiceTrace/Uniform4096New50 (0.00s)
+    --- PASS: TestServiceTrace/Zipf4096New10 (0.00s)
+    --- PASS: TestServiceTrace/Hot32New20 (0.00s)
+=== RUN   TestServiceUniqueKeys
+--- PASS: TestServiceUniqueKeys (0.00s)
+=== RUN   TestServiceLatency
+--- PASS: TestServiceLatency (0.00s)
+=== RUN   TestServiceClockResolution
+    service_benchmark_helpers_test.go:108: time.Now consecutive reads: samples=100000 zero=99998 minimum-positive=637쨉s
+--- PASS: TestServiceClockResolution (0.00s)
+PASS
+ok  	github.com/snowmerak/toybox/singleflight	0.097s

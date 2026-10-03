@@ -1,0 +1,90 @@
+[
+    {
+        "Name":  "BenchmarkWaitModeOverhead/IndependentCheap/FrozenWaitGroup",
+        "Count":  5,
+        "MedianNs":  115,
+        "MinNs":  105.6,
+        "MaxNs":  120.4,
+        "MedianBytes":  80,
+        "MedianAllocs":  1,
+        "MedianBackend":  1,
+        "MedianShared":  0
+    },
+    {
+        "Name":  "BenchmarkWaitModeOverhead/IndependentCheap/FrozenWaitGroup-8",
+        "Count":  5,
+        "MedianNs":  51.21,
+        "MinNs":  45.27,
+        "MaxNs":  54.92,
+        "MedianBytes":  80,
+        "MedianAllocs":  1,
+        "MedianBackend":  1,
+        "MedianShared":  0
+    },
+    {
+        "Name":  "BenchmarkWaitModeOverhead/IndependentCheap/SelectableWaitGroup",
+        "Count":  5,
+        "MedianNs":  139.6,
+        "MinNs":  133.3,
+        "MaxNs":  187,
+        "MedianBytes":  96,
+        "MedianAllocs":  1,
+        "MedianBackend":  1,
+        "MedianShared":  0
+    },
+    {
+        "Name":  "BenchmarkWaitModeOverhead/IndependentCheap/SelectableWaitGroup-8",
+        "Count":  5,
+        "MedianNs":  60.34,
+        "MinNs":  58.92,
+        "MaxNs":  61.28,
+        "MedianBytes":  96,
+        "MedianAllocs":  1,
+        "MedianBackend":  1,
+        "MedianShared":  0
+    },
+    {
+        "Name":  "BenchmarkWaitModeOverhead/HotYield/FrozenWaitGroup",
+        "Count":  5,
+        "MedianNs":  269.7,
+        "MinNs":  241.4,
+        "MaxNs":  310.6,
+        "MedianBytes":  80,
+        "MedianAllocs":  1,
+        "MedianBackend":  1,
+        "MedianShared":  0
+    },
+    {
+        "Name":  "BenchmarkWaitModeOverhead/HotYield/FrozenWaitGroup-8",
+        "Count":  5,
+        "MedianNs":  876.3,
+        "MinNs":  860.7,
+        "MaxNs":  901.4,
+        "MedianBytes":  18,
+        "MedianAllocs":  0,
+        "MedianBackend":  0.2288,
+        "MedianShared":  0.9792
+    },
+    {
+        "Name":  "BenchmarkWaitModeOverhead/HotYield/SelectableWaitGroup",
+        "Count":  5,
+        "MedianNs":  254.5,
+        "MinNs":  252.1,
+        "MaxNs":  353.6,
+        "MedianBytes":  96,
+        "MedianAllocs":  1,
+        "MedianBackend":  1,
+        "MedianShared":  0
+    },
+    {
+        "Name":  "BenchmarkWaitModeOverhead/HotYield/SelectableWaitGroup-8",
+        "Count":  5,
+        "MedianNs":  808.1,
+        "MinNs":  792.7,
+        "MaxNs":  821.3,
+        "MedianBytes":  22,
+        "MedianAllocs":  0,
+        "MedianBackend":  0.2335,
+        "MedianShared":  0.98
+    }
+]

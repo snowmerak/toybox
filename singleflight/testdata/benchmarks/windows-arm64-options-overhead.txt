@@ -1,0 +1,45 @@
+goos: windows
+goarch: arm64
+pkg: github.com/snowmerak/toybox/singleflight
+BenchmarkWaitModeOverhead/IndependentCheap/FrozenWaitGroup           	 3330369	       106.8 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/IndependentCheap/FrozenWaitGroup           	 3398530	       105.6 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/IndependentCheap/FrozenWaitGroup           	 3053631	       117.8 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/IndependentCheap/FrozenWaitGroup           	 2936749	       115.0 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/IndependentCheap/FrozenWaitGroup           	 3034412	       120.4 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/IndependentCheap/FrozenWaitGroup-8         	 7279491	        45.27 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/IndependentCheap/FrozenWaitGroup-8         	 7912278	        50.44 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/IndependentCheap/FrozenWaitGroup-8         	 6742178	        54.92 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/IndependentCheap/FrozenWaitGroup-8         	 6631507	        51.21 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/IndependentCheap/FrozenWaitGroup-8         	 7107432	        52.40 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/IndependentCheap/SelectableWaitGroup       	 1996622	       187.0 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/IndependentCheap/SelectableWaitGroup       	 2755918	       133.3 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/IndependentCheap/SelectableWaitGroup       	 2773246	       146.6 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/IndependentCheap/SelectableWaitGroup       	 2650842	       134.5 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/IndependentCheap/SelectableWaitGroup       	 2550909	       139.6 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/IndependentCheap/SelectableWaitGroup-8     	 5566154	        61.28 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/IndependentCheap/SelectableWaitGroup-8     	 6597357	        60.47 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/IndependentCheap/SelectableWaitGroup-8     	 6093216	        58.92 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/IndependentCheap/SelectableWaitGroup-8     	 6518161	        60.34 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/IndependentCheap/SelectableWaitGroup-8     	 6544251	        59.16 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/HotYield/FrozenWaitGroup                   	 1421527	       274.6 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/HotYield/FrozenWaitGroup                   	 1410408	       255.7 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/HotYield/FrozenWaitGroup                   	 1406704	       269.7 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/HotYield/FrozenWaitGroup                   	 1449146	       241.4 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/HotYield/FrozenWaitGroup                   	 1294852	       310.6 ns/op	         1.000 backend/op	         0 shared/op	      80 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/HotYield/FrozenWaitGroup-8                 	  651972	       875.3 ns/op	         0.2282 backend/op	         0.9792 shared/op	      18 B/op	       0 allocs/op
+BenchmarkWaitModeOverhead/HotYield/FrozenWaitGroup-8                 	  406159	       901.4 ns/op	         0.2279 backend/op	         0.9796 shared/op	      18 B/op	       0 allocs/op
+BenchmarkWaitModeOverhead/HotYield/FrozenWaitGroup-8                 	  387525	       860.7 ns/op	         0.2294 backend/op	         0.9772 shared/op	      18 B/op	       0 allocs/op
+BenchmarkWaitModeOverhead/HotYield/FrozenWaitGroup-8                 	  390171	       876.3 ns/op	         0.2308 backend/op	         0.9768 shared/op	      18 B/op	       0 allocs/op
+BenchmarkWaitModeOverhead/HotYield/FrozenWaitGroup-8                 	  403586	       892.3 ns/op	         0.2288 backend/op	         0.9795 shared/op	      18 B/op	       0 allocs/op
+BenchmarkWaitModeOverhead/HotYield/SelectableWaitGroup               	 1334230	       258.4 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/HotYield/SelectableWaitGroup               	 1369608	       252.1 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/HotYield/SelectableWaitGroup               	 1227747	       353.6 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/HotYield/SelectableWaitGroup               	 1202650	       252.7 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/HotYield/SelectableWaitGroup               	 1379190	       254.5 ns/op	         1.000 backend/op	         0 shared/op	      96 B/op	       1 allocs/op
+BenchmarkWaitModeOverhead/HotYield/SelectableWaitGroup-8             	  566491	       792.7 ns/op	         0.2317 backend/op	         0.9803 shared/op	      22 B/op	       0 allocs/op
+BenchmarkWaitModeOverhead/HotYield/SelectableWaitGroup-8             	  466152	       821.3 ns/op	         0.2337 backend/op	         0.9795 shared/op	      22 B/op	       0 allocs/op
+BenchmarkWaitModeOverhead/HotYield/SelectableWaitGroup-8             	  441879	       817.9 ns/op	         0.2335 backend/op	         0.9799 shared/op	      22 B/op	       0 allocs/op
+BenchmarkWaitModeOverhead/HotYield/SelectableWaitGroup-8             	  422678	       808.1 ns/op	         0.2307 backend/op	         0.9800 shared/op	      22 B/op	       0 allocs/op
+BenchmarkWaitModeOverhead/HotYield/SelectableWaitGroup-8             	  487111	       796.9 ns/op	         0.2336 backend/op	         0.9800 shared/op	      22 B/op	       0 allocs/op
+PASS
+ok  	github.com/snowmerak/toybox/singleflight	19.975s
